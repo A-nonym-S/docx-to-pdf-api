@@ -1,6 +1,6 @@
 FROM python:3.9
 
-# Inštalácia LibreOffice pre konverziu DOCX → PDF
+# Inštalácia LibreOffice (potrebná na konverziu DOCX → PDF)
 RUN apt-get update && apt-get install -y libreoffice
 
 # Nastavenie pracovného adresára
