@@ -1,2 +1,4 @@
-Flask
 uuid
+flask
+gunicorn
+python-docx
